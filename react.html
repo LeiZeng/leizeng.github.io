@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <meta name="msvalidate.01" content="DF63C81803ED851EB8A51690EB833FD1" />
+  <meta name="google-site-verification" content="KCgsnT3raAKHmv47HyiIMFPxurE7iFFItoj1TbI7f_4" />
+  <title>React Page to test</title>
+  <meta name="description" content="Reactjs page for SEO">
+  <meta name="keyword" content="leizeng,Tedfdnchsk">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react-with-addons.js" charset="utf-8"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/javascript">
+  var Form = React.createClass({
+    render: function () {
+      return (
+        React.createElement("form", {method: "POST"},
+          React.createElement("input", {type: "text"}, null),
+          React.createElement("input", {type: "text"}, null),
+          React.createElement("input", {type: "submit", value: "submit"}, null)
+        )
+      )
+    }
+  })
+  var App = React.createClass({
+    render: function() {
+      return (
+        React.createElement("Form", null, null)
+      )
+    }
+  });
+  React.render(React.createFactory(App)(),
+    document.getElementById('app'));
+  </script>
+</body>
+</html>
